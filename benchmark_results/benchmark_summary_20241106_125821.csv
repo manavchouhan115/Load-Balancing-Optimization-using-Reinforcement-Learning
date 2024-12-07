@@ -1,0 +1,7 @@
+,,average_response_time,average_response_time,average_response_time,average_response_time,load_balance_std,load_balance_std,load_balance_std,load_balance_std,total_reward,total_reward,total_reward,total_reward
+,,mean,std,min,max,mean,std,min,max,mean,std,min,max
+algorithm,scenario,,,,,,,,,,,,
+ppo,bursty_traffic,0.0983,0.0016,0.0972,0.0994,0.0075,0.0008,0.0069,0.0081,-105.8463,0.7354,-106.3663,-105.3262
+ppo,periodic_traffic,0.1006,0.0016,0.0995,0.1018,0.0084,0.0007,0.0079,0.0089,-109.023,2.2785,-110.6341,-107.4118
+ppo,uniform_heavy_load,0.0984,0.0069,0.0935,0.1033,0.0093,0.0018,0.008,0.0106,-107.6513,5.07,-111.2363,-104.0663
+ppo,uniform_light_load,0.0989,0.0042,0.0959,0.1019,0.0251,0.0012,0.0243,0.0259,-61.358,0.6323,-61.8051,-60.9109

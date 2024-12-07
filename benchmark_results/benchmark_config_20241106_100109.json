@@ -1,0 +1,44 @@
+{
+  "n_servers": 3,
+  "n_episodes": 1000,
+  "n_runs": 5,
+  "scenarios": [
+    {
+      "name": "uniform_light_load",
+      "config": {
+        "request_pattern": "uniform",
+        "mean_request_rate": 0.5
+      },
+      "duration": 1000
+    },
+    {
+      "name": "uniform_heavy_load",
+      "config": {
+        "request_pattern": "uniform",
+        "mean_request_rate": 2.0
+      },
+      "duration": 1000
+    },
+    {
+      "name": "bursty_traffic",
+      "config": {
+        "request_pattern": "bursty",
+        "mean_request_rate": 1.0,
+        "burst_probability": 0.2,
+        "burst_rate_multiplier": 3.0
+      },
+      "duration": 1000
+    },
+    {
+      "name": "periodic_traffic",
+      "config": {
+        "request_pattern": "periodic",
+        "mean_request_rate": 1.0
+      },
+      "duration": 1000
+    }
+  ],
+  "algorithms": [
+    "q_learning"
+  ]
+}

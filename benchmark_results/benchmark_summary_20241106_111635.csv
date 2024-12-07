@@ -1,0 +1,7 @@
+,,average_response_time,average_response_time,average_response_time,average_response_time,load_balance_std,load_balance_std,load_balance_std,load_balance_std,total_reward,total_reward,total_reward,total_reward
+,,mean,std,min,max,mean,std,min,max,mean,std,min,max
+algorithm,scenario,,,,,,,,,,,,
+sarsa,bursty_traffic,0.0991,0.0045,0.0939,0.1052,0.0554,0.0239,0.0241,0.0872,-154.5035,26.7707,-186.4354,-118.0084
+sarsa,periodic_traffic,0.1007,0.0027,0.0969,0.1041,0.0359,0.0176,0.0114,0.0566,-136.5415,16.1996,-156.1377,-112.5432
+sarsa,uniform_heavy_load,0.101,0.0029,0.0983,0.106,0.071,0.028,0.0471,0.116,-172.0142,28.6493,-216.0655,-146.8979
+sarsa,uniform_light_load,0.0988,0.0068,0.0918,0.1071,0.1144,0.0528,0.0602,0.1991,-106.8341,20.8784,-139.9854,-87.2913

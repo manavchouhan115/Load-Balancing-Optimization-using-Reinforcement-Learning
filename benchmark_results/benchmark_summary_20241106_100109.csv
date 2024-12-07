@@ -1,0 +1,7 @@
+,,average_response_time,average_response_time,average_response_time,average_response_time,load_balance_std,load_balance_std,load_balance_std,load_balance_std,total_reward,total_reward,total_reward,total_reward
+,,mean,std,min,max,mean,std,min,max,mean,std,min,max
+algorithm,scenario,,,,,,,,,,,,
+q_learning,bursty_traffic,0.1001,0.0021,0.0983,0.1037,0.0329,0.0192,0.0085,0.0569,-132.9454,19.5901,-156.6043,-108.1292
+q_learning,periodic_traffic,0.0993,0.0024,0.0968,0.1029,0.0602,0.0354,0.0206,0.0963,-159.4894,35.4599,-196.194,-118.2603
+q_learning,uniform_heavy_load,0.0984,0.0031,0.0945,0.1021,0.0742,0.0473,0.0252,0.1352,-172.5797,46.5252,-229.6995,-121.4093
+q_learning,uniform_light_load,0.0976,0.0017,0.0963,0.1005,0.1209,0.0691,0.0512,0.2079,-110.4207,33.4977,-150.2092,-74.7562
